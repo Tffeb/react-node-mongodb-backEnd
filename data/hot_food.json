@@ -1,0 +1,98 @@
+[
+  {
+    "id": 44,
+    "name": "武汉",
+    "food": [
+      {
+        "id": 1,
+        "description": "在武汉已有百余年历史，它是由糯米粉滚成圆团，再裹上一层芝麻炸熟而成，炸熟后外脆内软，外焦里嫩，色泽鲜艳，咬一口，一声脆响后糖汁四溢，满嘴芝麻香",
+        "foodname": "欢喜坨",
+        "image_url": "/meishi/wuhan/huanxituo.png",
+        "__v": 0
+      },
+      {
+        "id": 2,
+        "description": "以“小巧、皮薄、馅大、肉鲜、味美、汤汁充盈、清香利口”而著称，与小笼包系出同门。但浙江新昌将馄饨也称作汤包",
+        "foodname": "汤包",
+        "image_url": "/meishi/wuhan/tangbao.png",
+        "__v": 0
+      },
+      {
+        "id": 3,
+        "description": "面窝创始于清光绪年间。还有一些小面窝，用的铁勺内部较小",
+        "foodname": "面窝",
+        "image_url": "/meishi/wuhan/mianwo.png",
+        "__v": 0
+      },
+      {
+        "id": 4,
+        "description": "它是武汉人的羊肉泡馍，其传统意义、历史内涵，丝毫不比羊肉泡馍逊色。一碗飘着鲜美鱼香味儿的糊汤粉，扑面而来的是水乡泽国、鱼米之乡的气息和味道",
+        "foodname": "糊汤粉",
+        "image_url": "/meishi/wuhan/tanghufen.png",
+        "__v": 0
+      },
+      {
+        "id": 5,
+        "description": "主要食材有绿豆、大米,武汉八大名吃之一",
+        "foodname": "豆丝",
+        "image_url": "/meishi/wuhan/dousi.png",
+        "__v": 0
+      },
+      {
+        "id": 6,
+        "description": "热干面（Hot dry noodles）是中国十大面条之一，是湖北武汉最出名的小吃之一，有多种做法。通常以油、芝麻酱、色拉油、香油、细香葱、大蒜子、萝卜丁，酸豆角、卤水汁、生抽为辅助材料",
+        "foodname": "热干面",
+        "image_url": "/meishi/wuhan/reganmian.png",
+        "__v": 0
+      },
+      {
+        "id": 7,
+        "description": "三鲜豆皮是糯米和豆皮合作而成，以馅中有鲜肉、鲜蛋、鲜虾（或鲜肉、鲜菇和鲜笋）而得名",
+        "foodname": "三鲜豆皮",
+        "image_url": "/meishi/wuhan/sanxiandoupi.png",
+        "__v": 0
+      },
+      {
+        "id": 8,
+        "description": "烧麦，又称烧卖、肖米、稍麦、稍梅、烧梅、鬼蓬头，在日本称作焼売，是形容顶端蓬松束折如花的形状，是一种以烫面为皮裹馅上笼蒸熟的小吃。形如石榴，洁白晶莹，馅多皮薄，清香可口。喷香可口，兼有小笼包与锅贴之优点，民间常作为宴席佳肴",
+        "foodname": "烧麦",
+        "image_url": "/meishi/wuhan/shaomai.png",
+        "__v": 0
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "恩施",
+    "food": [
+      {
+        "id": 1,
+        "description": "土人以油炸黄豆，包谷，米花，绿焦诸物，取水和油，煮茶叶和汤泡之，饷客致敬，名曰：‘油茶’”",
+        "foodname": "土家油茶汤",
+        "image_url": "/meishi/enshi/youchatang.png",
+        "__v": 0
+      },
+      {
+        "id": 2,
+        "description": "腊肉用温水洗净，蒸或煮后可切成片状直接食用，也可以做腊肉回锅菜；或切成长而薄且均匀的大片或块，放入豆豉、干豆角或土豆大火蒸20分钟即可，筋道入味的瘦肉，半透明肥而不腻的肥肉甚至肉皮都有滋有味，让人欲罢不能。",
+        "foodname": "土家腊肉",
+        "image_url": "/meishi/enshi/tujialarou.png",
+        "__v": 0
+      },
+      {
+        "id": 3,
+        "description": "柏杨豆干是湖北省恩施土家族苗族自治州的一种地方特色菜肴，因产于利川市柏杨坝镇柏杨村而得名",
+        "foodname": "柏杨豆干",
+        "image_url": "/meishi/enshi/yangbodougan.png",
+        "__v": 0
+      },
+      {
+        "id": 4,
+        "description": "社饭自古有之，是中国汉、土家、苗、侗族等民族祭祀社稷的一种食品",
+        "foodname": "社饭",
+        "image_url": "/meishi/enshi/shefan.png",
+        "__v": 0
+      }
+    ]
+  }
+]

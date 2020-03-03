@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "恩施",
+    "image_url": "/carousel/enshidaxiagu.png"
+  },
+  {
+    "id": 2,
+    "name": "武汉",
+    "image_url": "/carousel/huanghelou.png"
+  },
+  {
+    "id": 3,
+    "name": "咸宁",
+    "image_url": "/carousel/jiugongshan.png"
+  },
+  {
+    "id": 4,
+    "name": "宜昌",
+    "image_url": "/carousel/sanxia.png"
+  },
+  {
+    "id": 5,
+    "name": "神农架",
+    "image_url": "/carousel/shennongxi.png"
+  },
+  {
+    "id": 6,
+    "name": "十堰",
+    "image_url": "/carousel/wudangshan.png"
+  },
+  {
+    "id": 7,
+    "name": "黄石",
+    "image_url": "/carousel/xiandaohu.png"
+  },
+  {
+    "id": 8,
+    "name": "襄阳",
+    "image_url": "/carousel/xiangyanggucheng.png"
+  }
+]
