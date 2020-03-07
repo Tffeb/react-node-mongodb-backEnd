@@ -69,7 +69,7 @@ const orderSchema = new Schema({
   number: { type: Number },
   orderimg: { type: String },
   orderid: { type: Schema.Types.ObjectId },
-  state: { type: Number }
+  state: { type: Number }   //支付0 未支付1
 })
 
 //2.1定义Model(与集合对应，可以操作集合)

@@ -475,6 +475,27 @@ router.get('/orderinfo', (req, res) => {
     }
   })
 })
+
+//订单支付信息
+router.get('/order/payinfo', (req, res) => {
+  const id = mongoose.Types.ObjectId(req.query.id)
+  OrderSchema.find({ _id: id }, (err, orderInfo) => {
+    if (orderInfo) {
+      res.send({ code: 0, data: orderInfo[0] })
+    }
+  })
+})
+
+//订单去支付
+router.get('/order/topay', (req, res) => {
+  const id = mongoose.Types.ObjectId(req.query.id)
+  OrderSchema.update({ _id: id }, { state: 0 }, (err, orderInfo) => {
+    if (orderInfo) {
+      res.send({ code: 0, msg: '支付成功!' })
+    }
+  })
+})
+
 //删除订单
 router.post('/deleteorder', (req, res) => {
   const orderIdObj = req.body
@@ -498,18 +519,21 @@ router.get('/loginout', function (req, res) {
 router.get('/carousel/img', function (req, res) {
   const data = require('../data/carousel.json')
   let carousel = []
-  let indexArr = []
+  let index = undefined
   for (let i = 0; i < 8; i++) {
-    let index = Math.floor(Math.random() * 8)
+    index = Math.floor(Math.random() * 8)
     if (carousel.length < 4) {
-      if (indexArr.indexOf(index) === -1) {
+      if (!carousel.includes(data[index])) {
         carousel.push(data[index])
-        indexArr.push(index)
       }
-    } else {
-      res.send({ code: 0, data: carousel })
+      console.log(carousel.length)
     }
   }
+  setTimeout(function () {
+    if (carousel.length === 4) {
+      res.send({ code: 0, data: carousel })
+    }
+  }, 300)
 })
 
 //获取hot_spots数据
